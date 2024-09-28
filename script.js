@@ -13,7 +13,7 @@ const API_KEY = "?apikey=2c54c551-874b-4aec-899b-c9937033086c";
 const deleteButton = (li) => {
   const img = document.createElement("img");
   img.setAttribute("id", "deleteButton");
-  img.setAttribute("src", "./images/delete-button.svg");
+  img.setAttribute("src", "../images/delete-button.svg");
   li.appendChild(img);
 };
 
